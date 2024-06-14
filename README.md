@@ -2,13 +2,10 @@
 Biomedical Knowledge-enhanced Question Answering Framework
 
 Loading the BioASQ dataset:
-First create an account in the BioASQ official website:
-
-BioASQ 6B: http://participants-area.bioasq.org/Tasks/6b/trainingDataset/
-
-BioASQ 7B: http://participants-area.bioasq.org/Tasks/7b/trainingDataset/
-
-BioASQ 8B: http://participants-area.bioasq.org/Tasks/8b/trainingDataset/
+First create an account in the BioASQ official website:<br>
+BioASQ 6B: http://participants-area.bioasq.org/Tasks/6b/trainingDataset/<br>
+BioASQ 7B: http://participants-area.bioasq.org/Tasks/7b/trainingDataset/<br>
+BioASQ 8B: http://participants-area.bioasq.org/Tasks/8b/trainingDataset/<br>
 
 
 Filtering the questions of type factoid:
