@@ -28,7 +28,10 @@ BioASQ 8B: http://participants-area.bioasq.org/Tasks/8b/trainingDataset/<br>
 python factoid_extraction.py [input_file_path] [output_file_path]
 ```
 
-3. Extract the Biomedical Concepts
+3. Extract the Biomedical Concepts and categories
+
+   For downloading the updated training and testing files containing the concepts and categories for the samples:
+
 
 **Requirements**
 
