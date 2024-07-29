@@ -7,7 +7,7 @@ This framework retrieves, ranks, and employs domain-specific concepts from the U
 
 Here is the framework's figure:
 
-![Framework Figure](https://github.com/Bitazad/BK-QAF/blob/main/MainFigure.png)
+<img src="https://github.com/Bitazad/BK-QAF/blob/main/MainFigure.png" alt="Framework Figure" width="500"/>
 
 
 # Code and Data
