@@ -36,7 +36,7 @@ Install the required packages using pip:
 
 ```bash
 pip install -r requirements.txt
-
+```
 4. GAT Training
 ```
 python train_gat_model.py [json_file_path] [output_file_path] [structure] [num_epochs] [lr]
