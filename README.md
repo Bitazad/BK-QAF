@@ -15,6 +15,7 @@ Here is the framework's figure:
 
 **Below is the code necessary to produce the results. Follow the instructions provided to run the code:**
 
+
 1. Loading the BioASQ dataset:<br>
 First create an account in [the BioASQ official website](http://participants-area.bioasq.org/):<br>
 BioASQ 6B: http://participants-area.bioasq.org/Tasks/6b/trainingDataset/<br> 
@@ -29,12 +30,21 @@ python factoid_extraction.py [input_file_path] [output_file_path]
 
 3. Extract the Biomedical Concepts
 
+## Requirements
 
-4. Gat Training and Testing
+Install the required packages using pip:
 
+```bash
+pip install -r requirements.txt
 
-5. Top Extracted Concpets from GAT 
+4. GAT Training
+```
+python train_gat_model.py [json_file_path] [output_file_path] [structure] [num_epochs] [lr]
+```
 
+5. GAT Testing
+
+**After extracting and storing the top concepts in the `concepts_file_path`, we can use the sequence tagging (span extraction) model and the dataset to predict the span.**
 
 6. Span Prediction
 ```
