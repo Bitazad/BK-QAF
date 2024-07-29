@@ -30,7 +30,10 @@ python factoid_extraction.py [input_file_path] [output_file_path]
 
 3. Extract the Biomedical Concepts and categories
 
-For downloading the updated training and testing files containing the concepts and categories for the samples:
+  For downloading the updated training and testing files containing the concepts and categories for the samples:
+
+  - [Training sets](https://github.com/Bitazad/BK-QAF/blob/main/Trainingsets.zip)
+  - [Testing sets](https://github.com/Bitazad/BK-QAF/blob/main/Testsets.zip)
 
 
 **Requirements**
