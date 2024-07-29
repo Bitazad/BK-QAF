@@ -1,5 +1,8 @@
 # BK-QAF
-Biomedical Knowledge-enhanced Question Answering Framework
+Biomedical Knowledge-enhanced Question Answering Framework (BK-QAF)
+This framework retrieves, ranks, and employs domain-specific concepts from the Unified Medical Language System (UMLS) to enhance the comprehension and reasoning capabilities of language models. By using Graph Attention Networks (GATs) to analyze the interconnections and relationships between terms and entities in biomedical texts,
+we identify the most relevant concepts for the query. The framework then ranks these UMLS concepts by relevance, expands the
+questions with the top-ranked concepts, and processes them using a fine-tuned language model.
 
 Loading the BioASQ dataset:<br>
 First create an account in [the BioASQ official website](http://participants-area.bioasq.org/):<br>
@@ -12,3 +15,4 @@ Filtering the questions of type factoid:
 ```
 python factoid_extraction.py [input_file_path] [output_file_path]
 ```
+
