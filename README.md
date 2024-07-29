@@ -42,25 +42,25 @@ Install the required packages using pip:
 ```bash
 pip install -r requirements.txt
 ```
-4. GAT Training
+3. GAT Training
 ```
 python train_gat_model.py [json_file_path] [output_file_path] [structure] [num_epochs] [lr]
 ```
 
-5. GAT Testing
+4. GAT Testing
 
 ```
 python test_gat_model.py [json_file_path] [model_path] [output_file_path] [structure]
 ```
 
-6. Cross-encoder Fine-tuning
+5. Cross-encoder Fine-tuning
 ```
 python fine_tune_cross_encoder.py [train_file_path] [output_model_path] [num_epochs] [batch_size] [learning_rate]
 ```
 
-**After extracting and storing the top concepts in the `concepts_file_path`, we can use the sequence tagging (span extraction) model and the dataset to predict the span with respct to the top two snippets ranked by cross-encoder model.**
+**After extracting and storing the top concepts in the `concepts_file_path`, we can use the sequence tagging (span extraction) model and the dataset to predict the span with respct to the top two snippets ranked by the cross-encoder model.**
 
-8. Span Prediction
+6. Span Prediction
 ```
 python Span_prediction.py [model_path] [qa_data_path] [concepts_file_path] [output_file_path]
 ```
