@@ -3,6 +3,12 @@
 
 This framework retrieves, ranks, and employs domain-specific concepts from the Unified Medical Language System (UMLS) to enhance the comprehension and reasoning capabilities of language models. By using Graph Attention Networks (GATs) to analyze the interconnections and relationships between terms and entities in biomedical texts, we identify the most relevant concepts for the query. The framework then ranks these UMLS concepts by relevance, expands the questions with the top-ranked concepts, and processes them using a fine-tuned language model.
 
+## Framework
+
+Here is the framework's figure:
+
+![Framework Figure](https://github.com/yourusername/yourrepositoryname/blob/main/images/framework_figure.png)
+
 
 # Code and Data
 
