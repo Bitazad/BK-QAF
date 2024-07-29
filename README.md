@@ -30,7 +30,7 @@ python factoid_extraction.py [input_file_path] [output_file_path]
 
 3. Extract the Biomedical Concepts and categories
 
-   For downloading the updated training and testing files containing the concepts and categories for the samples:
+For downloading the updated training and testing files containing the concepts and categories for the samples:
 
 
 **Requirements**
@@ -46,6 +46,10 @@ python train_gat_model.py [json_file_path] [output_file_path] [structure] [num_e
 ```
 
 5. GAT Testing
+
+```
+python test_gat_model.py [json_file_path] [model_path] [output_file_path] [structure]
+```
 
 **After extracting and storing the top concepts in the `concepts_file_path`, we can use the sequence tagging (span extraction) model and the dataset to predict the span.**
 
