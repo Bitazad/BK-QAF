@@ -4,6 +4,8 @@ This framework retrieves, ranks, and employs domain-specific concepts from the U
 we identify the most relevant concepts for the query. The framework then ranks these UMLS concepts by relevance, expands the
 questions with the top-ranked concepts, and processes them using a fine-tuned language model.
 
+
+# Code and Data
 Loading the BioASQ dataset:<br>
 First create an account in [the BioASQ official website](http://participants-area.bioasq.org/):<br>
 BioASQ 6B: http://participants-area.bioasq.org/Tasks/6b/trainingDataset/<br> 
