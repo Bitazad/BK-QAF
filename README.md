@@ -54,9 +54,14 @@ python train_gat_model.py [json_file_path] [output_file_path] [structure] [num_e
 python test_gat_model.py [json_file_path] [model_path] [output_file_path] [structure]
 ```
 
-**After extracting and storing the top concepts in the `concepts_file_path`, we can use the sequence tagging (span extraction) model and the dataset to predict the span.**
+6. Cross-encoder Fine-tuning
+```
+python fine_tune_cross_encoder.py [train_file_path] [output_model_path] [num_epochs] [batch_size] [learning_rate]
+```
 
-6. Span Prediction
+**After extracting and storing the top concepts in the `concepts_file_path`, we can use the sequence tagging (span extraction) model and the dataset to predict the span with respct to the top two snippets ranked by cross-encoder model.**
+
+8. Span Prediction
 ```
 python Span_prediction.py [model_path] [qa_data_path] [concepts_file_path] [output_file_path]
 ```
