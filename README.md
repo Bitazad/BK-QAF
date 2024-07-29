@@ -44,23 +44,23 @@ pip install -r requirements.txt
 ```
 3. GAT Training
 ```
-python train_gat_model.py [json_file_path] [output_file_path] [structure] [num_epochs] [lr]
+python train_gat_model.py [train_input_file_path] [output_file_path] [structure] [num_epochs] [lr]
 ```
 
 4. GAT Testing
 
 ```
-python test_gat_model.py [json_file_path] [model_path] [output_file_path] [structure]
+python test_gat_model.py [test_input_file_path] [model_path] [output_file_path] [structure]
 ```
 
 5. Cross-encoder Fine-tuning
 ```
-python fine_tune_cross_encoder.py [train_file_path] [output_model_path] [num_epochs] [batch_size] [learning_rate]
+python fine_tune_cross_encoder.py [train_input_file_path] [output_cross_encoder_model_path] [num_epochs] [batch_size] [learning_rate]
 ```
 
-**After extracting and storing the top concepts in the `concepts_file_path`, we can use the sequence tagging (span extraction) model and the dataset to predict the span with respct to the top two snippets ranked by the cross-encoder model.**
+**After extracting and storing the top concepts in concepts_file_path, the sequence tagging (span extraction) model can be used along with the dataset to predict spans based on the top two snippets ranked by the cross-encoder model, which are stored in test_input_file_updated_path.**
 
 6. Span Prediction
 ```
-python Span_prediction.py [model_path] [qa_data_path] [concepts_file_path] [output_file_path]
+python Span_prediction.py [model_path] [test_input_file_updated_path] [concepts_file_path] [final_output_file_path]
 ```
