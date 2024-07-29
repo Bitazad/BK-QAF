@@ -2,3 +2,4 @@ torch
 dgl
 transformers
 tqdm
+scikit-learn
