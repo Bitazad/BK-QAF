@@ -30,7 +30,7 @@ python factoid_extraction.py [input_file_path] [output_file_path]
 
 3. Extract the Biomedical Concepts
 
-## Requirements
+**Requirements**
 
 Install the required packages using pip:
 
